@@ -1,12 +1,12 @@
 package DemoSample.DemoSample;
 
+import org.openqa.selenium.By;
+
 public class AccontsPage {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-		System.out.println("Accounts Page");
-
+	By acc = By.id("acc");
+	
+	public void click() {
+		System.out.println("Click");
 	}
-
 }
